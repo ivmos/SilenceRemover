@@ -151,7 +151,7 @@ const VideoRender: Component<{
       </button>
       <Show when={download()}>
         <div
-          class="ransition-opacity relative z-10"
+          class="transition-opacity relative z-10"
           aria-labelledby="modal-title"
           role="dialog"
           aria-modal="true"

@@ -156,10 +156,8 @@ export const formatTime = (time: number) => {
   const hours = Math.floor(time / 3600);
 
   if (hours === 0) {
-    return `${minutes}:${formatter.format(seconds)}:${miliSeconds}`;
+    return `${minutes}:${formatter.format(seconds)}:${formatter.format(miliSeconds)}`;
   } else {
-    return `${hours}:${formatter.format(minutes)}:${formatter.format(
-      seconds
-    )}${miliSeconds}`;
+    return `${hours}:${formatter.format(minutes)}:${formatter.format(seconds)}:${formatter.format(miliSeconds)}`;
   }
 };

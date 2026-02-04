@@ -1,7 +1,7 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "name": "silence-remover",
+  "version": "1.0.0",
+  "description": "Free browser-based tool to automatically detect and remove silence from videos",
   "scripts": {
     "start": "vite",
     "dev": "vite",
